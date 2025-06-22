@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Django/Migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Byte-compiled files
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Static/media (optional – depending on your setup)
+staticfiles/
+media/
+
+# Database (if using SQLite)
+*.sqlite3
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Testing
+.test/
+
+# Node stuff (if using frontend tools like npm)
+node_modules/
+build/
+dist/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Gunicorn
+*.pid
+
+# Compiled translation files
+*.mo
+
+# Backup files
+*.bak
+*.swp
+
+# JetBrains IDE
+*.iml
+.idea/
+
+# Pycharm
+*.idea/
+
+# VS Code
+.history/
+
+# Pipenv
+Pipfile.lock
+
+# pytest
+.cache/
+
+# mypy
+.mypy_cache/
+
+# coverage.py
+.coverage
+coverage.xml
